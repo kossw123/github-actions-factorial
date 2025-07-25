@@ -1,4 +1,4 @@
-const factorial = require('./factorial');
+const factorial = require('../src/factorial');
 
 test('0! is 1', () => {
   expect(factorial(0)).toBe(1);
